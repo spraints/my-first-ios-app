@@ -45,17 +45,17 @@
 		C9B54C1C1462C0C800D987DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9B54C1E1462C0C800D987DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9B54C201462C0C800D987DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C9B54C241462C0C800D987DE /* ScaryBugsNoStoryboard-Info.plist */ = {isa = PBXFileReference; path = "ScaryBugsNoStoryboard-Info.plist"; sourceTree = "<group>"; };
+		C9B54C241462C0C800D987DE /* ScaryBugsNoStoryboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsNoStoryboard-Info.plist"; sourceTree = "<group>"; };
 		C9B54C261462C0C800D987DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9B54C281462C0C800D987DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9B54C2A1462C0C800D987DE /* ScaryBugsNoStoryboard-Prefix.pch */ = {isa = PBXFileReference; path = "ScaryBugsNoStoryboard-Prefix.pch"; sourceTree = "<group>"; };
-		C9B54C2B1462C0C800D987DE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9B54C2A1462C0C800D987DE /* ScaryBugsNoStoryboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugsNoStoryboard-Prefix.pch"; sourceTree = "<group>"; };
+		C9B54C2B1462C0C800D987DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9B54C2C1462C0C800D987DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C9B54C2E1462C0C800D987DE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		C9B54C2E1462C0C800D987DE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		C9B54C2F1462C0C800D987DE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		C9B54C311462C0C800D987DE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		C9B54C331462C0C800D987DE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		C9B54C351462C0C800D987DE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		C9B54C351462C0C800D987DE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C9B54C361462C0C800D987DE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C9B54C381462C0C800D987DE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		C9B54C3A1462C0C800D987DE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -65,9 +65,9 @@
 		C9B54C461462C0C800D987DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
 		C9B54C4D1462C0C900D987DE /* ScaryBugsNoStoryboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsNoStoryboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B54C4E1462C0C900D987DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C9B54C561462C0C900D987DE /* ScaryBugsNoStoryboardTests-Info.plist */ = {isa = PBXFileReference; path = "ScaryBugsNoStoryboardTests-Info.plist"; sourceTree = "<group>"; };
+		C9B54C561462C0C900D987DE /* ScaryBugsNoStoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsNoStoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		C9B54C581462C0C900D987DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9B54C5A1462C0C900D987DE /* ScaryBugsNoStoryboardTests.h */ = {isa = PBXFileReference; path = ScaryBugsNoStoryboardTests.h; sourceTree = "<group>"; };
+		C9B54C5A1462C0C900D987DE /* ScaryBugsNoStoryboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaryBugsNoStoryboardTests.h; sourceTree = "<group>"; };
 		C9B54C5B1462C0C900D987DE /* ScaryBugsNoStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsNoStoryboardTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
