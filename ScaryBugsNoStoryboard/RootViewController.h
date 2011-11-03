@@ -6,11 +6,12 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-
+@class EditBugViewController;
 
 @interface RootViewController : UITableViewController
 
 @property (retain) NSMutableArray *bugs;
+@property (retain) EditBugViewController *editBugViewController;
 
 - (void)configureCell:(UITableViewCell*)cell atIndexPath:(NSIndexPath*)indexPath;
 

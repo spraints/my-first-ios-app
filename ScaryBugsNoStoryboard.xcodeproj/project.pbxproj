@@ -30,6 +30,7 @@
 		C9B54C7E1462CA9300D987DE /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9B54C751462CA9300D987DE /* potatoBugThumb.jpg */; };
 		C9B54C7F1462CA9300D987DE /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9B54C761462CA9300D987DE /* wolfSpider.jpg */; };
 		C9B54C801462CA9300D987DE /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9B54C771462CA9300D987DE /* wolfSpiderThumb.jpg */; };
+		C9B54C831462CCA600D987DE /* EditBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B54C821462CCA600D987DE /* EditBugViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		C9B54C751462CA9300D987DE /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		C9B54C761462CA9300D987DE /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		C9B54C771462CA9300D987DE /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		C9B54C811462CCA600D987DE /* EditBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBugViewController.h; sourceTree = "<group>"; };
+		C9B54C821462CCA600D987DE /* EditBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBugViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 			children = (
 				C9B54C2B1462C0C800D987DE /* AppDelegate.h */,
 				C9B54C2C1462C0C800D987DE /* AppDelegate.m */,
+				C9B54C811462CCA600D987DE /* EditBugViewController.h */,
+				C9B54C821462CCA600D987DE /* EditBugViewController.m */,
 				C9B54C231462C0C800D987DE /* Supporting Files */,
 				C9B54C651462C2E900D987DE /* RootViewController.h */,
 				C9B54C661462C2E900D987DE /* RootViewController.m */,
@@ -312,6 +317,7 @@
 				C9B54C671462C2E900D987DE /* RootViewController.m in Sources */,
 				C9B54C6A1462C3FD00D987DE /* ScaryBugData.m in Sources */,
 				C9B54C6D1462C51D00D987DE /* ScaryBugDoc.m in Sources */,
+				C9B54C831462CCA600D987DE /* EditBugViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
