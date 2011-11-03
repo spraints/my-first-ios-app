@@ -10,4 +10,8 @@
 
 @interface RootViewController : UITableViewController
 
+@property (retain) NSMutableArray *bugs;
+
+- (void)configureCell:(UITableViewCell*)cell atIndexPath:(NSIndexPath*)indexPath;
+
 @end
